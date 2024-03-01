@@ -1,0 +1,32 @@
+@import "config";
+
+@import "components/all";
+
+@import "pages/all";
+
+:root {
+    --black: #2b2b2b;
+    --blue: #007bad;
+
+    --green: #1cc700;
+    --red: #d30000;
+
+    --grey: #cccccc;
+    --darkGrey: #8b8b8b;
+
+    --bg-color: #007bad;
+    --initial-color: #cccccc;
+    --initial-text: #cccccc;
+    --active-text: #007bad;
+
+    --themeColor: #2b2b2b;
+    --themetextColor: #ffffff;
+
+    --captionColor: #8b8b8b;
+    --activeDotColor: #cccccc;
+    --dotColor: #2b2b2b;
+}
+body {
+    margin: 0;
+    padding: 0;
+}

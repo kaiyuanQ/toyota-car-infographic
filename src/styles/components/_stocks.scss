@@ -1,0 +1,9 @@
+.stocks-container {
+    display: flex;
+    gap: 5px;
+    @include typography($font-family-others, 1rem, $font-medium, normal, 1rem, 0.0625rem);
+    .stocks-value {
+        min-width: 65px;
+        
+    }
+}

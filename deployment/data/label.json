@@ -1,0 +1,395 @@
+{
+  "scrollyBoxTheme": {
+    "themeBgColor": "#ffffff",
+    "themeTextCollor": "#2b2b2b"
+  },
+  "caseStudy": {
+    "title": "Toyota Corolla Cross Hybrid"
+  },
+  "firstScreen": {
+    "title1": "FROM ARF TO COE",
+    "title": "Why a Toyota costs S$200,000 in Singapore",
+    "by": "BY DERRYN WONG ",
+    "desc": [
+      "ROAD congestion anywhere in the world exacts a high economic cost.",
+      "That is partly why Singapore’s efforts to control car ownership in the past decades have been relentless. But the high prices of cars here today are inflicting a significant cost of their own.",
+      "What exactly are we paying for when we purchase a car in Singapore?",
+      "<i>The Business Times</i> summarises the myriad taxes and fees levied on cars here, and how prices compare to other major cities."
+    ],
+    "scrollText": "Scroll down"
+  },
+  "scrollytelling": [
+    {
+      "id": 1,
+      "desc": [
+        "This is the value of the vehicle when it lands in Singapore. Assessed by Singapore Customs, it includes the purchase price, freight, insurance and “all other charges incidental to the sale and delivery of the car to Singapore”, says the Land Transport Authority (LTA)."
+      ],
+      "img": "",
+      "title": "Open Market Value (OMV)",
+      "priceT": "OMV",
+      "price": "S$29,006"
+    },
+    {
+      "id": 2,
+      "desc": [
+        "This is levied on all goods manufactured in, or imported into, Singapore. For cars, excise duty is 20 per cent of OMV."
+      ],
+      "img": "",
+      "title": "Excise duty",
+      "priceT": "Excise (20 per cent)",
+      "price": "S$5,801"
+    },
+    {
+      "id": 3,
+      "desc": [
+        "GST is levied twice on cars. First, when the car is imported into Singapore, where it is levied on the OMV including excise duty, and again at the point of sale, where it is levied on the total price minus the Certificate of Entitlement (COE).",
+        "In 2024, GST was increased to 9 per cent. "
+      ],
+      "img": "",
+      "notes": "<i>*Levied on OMV+Excise</i>",
+      "title": "Goods and Services Tax (GST)",
+      "priceT": "GST*",
+      "price": "S$3,133"
+    },
+    {
+      "id": 4,
+      "desc": [
+        "At S$350, this is the cost of registering a car for road use, through which it is issued a registration number plate."
+      ],
+      "img": "",
+      "title": "Registration Fee",
+      "priceT": "Registration Fee",
+      "price": "S$350"
+    },
+    {
+      "id": 5,
+      "desc": [
+        "This is the single largest tax component of a car’s price in Singapore.",
+        "ARF is a tax payable when one registers a vehicle. It is a tiered tax that increases depending on the OMV, so more expensive cars pay more ARF."
+      ],
+      "img": "",
+      "title": "Additional Registration Fee (ARF)",
+      "priceT": "Additional Registration Fee",
+      "price": "S$32,609"
+    },
+    {
+      "id": 6,
+      "desc": [
+        "The current ARF tax tiers are:"
+      ],
+      "img": "chartv2.webp",
+      "title": "Additional Registration Fee (ARF)"
+    },
+    {
+      "id": 7,
+      "desc": [
+        "For example, the OMV of a Honda Jazz, a small mainstream hatchback, is S$16,197, so it has an ARF of S$16,197. An Aston Martin DBX 707, a high-performance luxury sport utility vehicle, has an OMV of S$221,024, and has an ARF of S$587,227."
+      ],
+      "title": "Additional Registration Fee (ARF)"
+    },
+    {
+      "id": 8,
+      "desc": [
+        "In 2023’s Budget announcement, the <a href='https://www.businesstimes.com.sg/singapore/budget-2023-higher-marginal-arf-rates-cars-omv-more-s40000' targt='_blank'>government further increased ARF tax rates on cars with an OMV of more than S$40,000</a>, with the resulting spike in costs causing the market for ultra-luxury cars to plunge."
+      ],
+      "title": "Additional Registration Fee (ARF)"
+    },
+    {
+      "id": 9,
+      "desc": [
+        "VES is a scheme where either a penalty or a rebate is given for vehicles depending on their pollutant emissions band. From best to worst, the bands are: A1, A2, B, C1 and C2."
+      ],
+      "img": "",
+      "title": "Vehicular Emissions Scheme (VES)",
+      "priceT": "Vehicular Emissions Scheme (VES)",
+      "price": "-S$5,000"
+    },
+    {
+      "id": 10,
+      "desc": [
+        "From 2024, VES emissions guidelines were made more stringent, and the rebate for A2 vehicles was dropped from S$15,000 to S$5,000. The Toyota in this example is classified under the A2 band."
+      ],
+      "img": "",
+      "title": "Vehicular Emissions Scheme (VES)"
+    },
+    {
+      "id": 11,
+      "desc": [
+        "This is technically not a tax, but it is the largest extra cost that must be accounted for when buying a mainstream car in Singapore."
+      ],
+      "img": "",
+      "title": "Certificate of Entitlement (COE)",
+      "priceT": "Certificate of Entitlement Category B",
+      "price": "S$112,000"
+    },
+    {
+      "id": 12,
+      "desc": [
+        "A COE is required to register a vehicle here, and is obtained/priced through bi-monthly auctions. Car dealers usually package the cost of cars and COE together. However, since COE prices change at every bidding round, consumers may need to top up the difference when there are increases."
+      ],
+      "title": "Certificate of Entitlement (COE)",
+      "img": ""
+    },
+    {
+      "id": 13,
+      "desc": [
+        "The common definition of this is a tax paid to enable a vehicle to use the road.  Vehicles without valid road tax are not allowed on the roads. ",
+        "Officially, the LTA describes road tax as \"part of your vehicle ownership tax\"."
+      ],
+      "img": "",
+      "title": "Road Tax",
+      "priceT": "Road Tax (12-months)",
+      "price": "S$1,196"
+    },
+    {
+      "id": 14,
+      "desc": [],
+      "notes": "<i>**Charged on value of the car, not including COE. May be absorbed by some dealers.</i>",
+      "img": "",
+      "title": "GST at point of sale",
+      "priceT": "GST at point of sale**",
+      "price": "S$6,039"
+    },
+    {
+      "id": 15,
+      "desc": [
+        "This is the raw margin or profit the dealer makes on a car. This does not include overheads and other costs.",
+        "Car dealers now make <a href='https://www.businesstimes.com.sg/singapore/dealers-go-big-aftersales-margins-shrink-new-car-sales' target='_blank'>less profit on new car sales</a>, and actually earn more on aftersales service and financing."
+      ],
+      "img": "",
+      "notes": "<i>***Not including additional promotions or costs such as discounts or overtrade.</i>",
+      "title": "Dealer Margin",
+      "priceT": "Dealer Margin***",
+      "price": "S$26,754"
+    },
+    {
+      "id": 16,
+      "desc": [
+        "<i>Notes</i><br><i>*Levied on OMV+Excise <br> **Charged on value of the car, not including COE. May be absorbed by some dealers.</i><br><i>***Not including additional promotions or costs such as discounts or overtrade.</i>",
+        "<i>Based on authorised dealer quoted retail prices. Calculations based on Category B COE, taxes and rebates as at January 2024, not including insurance or financing or promotions. Values rounded to whole numbers.</i>"
+      ],
+      "priceT": "Retail price",
+      "price": "S$211,888"
+    }
+  ],
+  "staticSection": [
+    {
+      "id": 1,
+      "topDesc": [
+        "Compared to Hong Kong and New York, Singapore is clearly the more expensive place to buy even a budget car.",
+        "A small, mass-market hatchback, such as a Mazda3, costs around five times as much as in Hong Kong and New York. Across segments, it is typically 3 to 5 times more expensive to purchase a car in Singapore.",
+        "Singapore is not alone in levying more tax on luxury cars. Hong Kong levies a First Registration Tax on new cars, which operates in a similar fashion to the tiered ARF.",
+        "For the most expensive model on the list, the First Registration Tax constitutes just over half of the total price of the Porsche 911 Turbo S in Hong Kong. In Singapore, the ARF payable for expensive or ultra-luxury cars can constitute up to two-thirds of the final cost."
+      ],
+      "notes": [
+        "<i>Models selected were the least expensive version/trim for that nameplate</i><br><i>Singapore prices quoted from authorised distributors in January 2024 and include COE and all relevant taxes and fees.</i><br><i>Hong Kong prices include First Registration Tax but not vehicle licence fees.</i><br><i>US prices include registration and title fees and state/county sales tax of 8.375 per cent.</i>"
+      ],
+      "overviewTable": {
+        "title": "Car price comparison: Singapore, Hong Kong, New York",
+        "header": [
+          {
+            "id": "0",
+            "desc": "",
+            "csvT": "category"
+          },
+          {
+            "id": "1",
+            "desc": "Model type",
+            "csvT": "model"
+          },
+          {
+            "id": "2",
+            "desc": "Segment",
+            "csvT": "segment"
+          },
+          {
+            "id": "3",
+            "desc": "Singapore",
+            "csvT": "singapore"
+          },
+          {
+            "id": "4",
+            "desc": "Hong Kong (converted from HK$)",
+            "descM": "Hong Kong <br>(converted from HK$)",
+            "csvT": "hongkong"
+          },
+          {
+            "id": "5",
+            "desc": "New York (converted from US$)",
+            "descM": "New York <br>(converted from US$)",
+            "csvT": "newyork"
+          }
+        ],
+        "tableData": [
+          {
+            "category": "Mazda3 Hatchback",
+            "model": "Small hatchback",
+            "segment": "Mass market",
+            "singapore": "S$199,888",
+            "hongkong": "S$42,989",
+            "newyork": "S$40,129"
+          },
+          {
+            "category": "Honda CR-V",
+            "model": "Midsize SUV",
+            "segment": "Mass market",
+            "singapore": "S$256,999",
+            "hongkong": "S$68,764",
+            "newyork": "S$43,338"
+          },
+          {
+            "category": "Toyota Corolla Cross Hybrid",
+            "model": "Midsize SUV",
+            "segment": "Mass market",
+            "singapore": "S$212,888",
+            "hongkong": "S$49,174",
+            "newyork": "S$43,075"
+          },
+          {
+            "category": "Toyota RAV4 Hybrid",
+            "model": "Midsize SUV",
+            "segment": "Mass market",
+            "singapore": "S$228,888",
+            "hongkong": "S$63,567",
+            "newyork": "S$48,566"
+          },
+          {
+            "category": "Hyundai Ioniq 5 EV",
+            "model": "Small SUV,EV",
+            "segment": "Mass market",
+            "singapore": "S$185,800",
+            "hongkong": "S$86,913",
+            "newyork": "S$58,650"
+          },
+          {
+            "category": "Kia EV9",
+            "model": "Large SUV, EV",
+            "segment": "Mass market",
+            "singapore": "S$401,999",
+            "hongkong": "S$108,301",
+            "newyork": "S$82,666"
+          },
+          {
+            "category": "BMW 3 Series",
+            "model": "Executive sedan",
+            "segment": "Luxury",
+            "singapore": "S$288,888",
+            "hongkong": "S$84,089",
+            "newyork": "S$66,727"
+          },
+          {
+            "category": "Tesla Model 3",
+            "model": "Executive sedan, EV",
+            "segment": "Luxury",
+            "singapore": "S$206,890",
+            "hongkong": "S$79,334",
+            "newyork": "S$59,613"
+          },
+          {
+            "category": "Mercedes-Benz GLE",
+            "model": "Large SUV",
+            "segment": "Luxury",
+            "singapore": "S$549,888",
+            "hongkong": "S$161,386",
+            "newyork": "S$110,120"
+          },
+          {
+            "category": "Porsche 911 Turbo S",
+            "model": "Sports car",
+            "segment": "Luxury",
+            "singapore": "S$1,263,788",
+            "hongkong": "S$813,894",
+            "newyork": "S$339,519"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Car prices across markets",
+      "topDesc": [
+        "According to multiple economics data providers, Singapore is the most expensive place to buy a car in the world.",
+        "TheGlobalEconomy.com’s vehicle price index from 2017 puts Singapore at 327.3, more than triple the world average of 100. Hong Kong and the US are at 105 and 103.9, respectively.",
+        "The second-most expensive place to buy a car is also a small island: the Maldives, which has a score of 298.8. The cheapest place to buy a car is Azerbaijan, with a score of 46.4."
+      ],
+      "overviewChart": {
+        "data":[
+          {
+            "name": "Singapore",
+            "value": 327.3
+          },
+          {
+            "name": "Maldives",
+            "value": 298.8
+          },
+          {
+            "name": "Hong Kong",
+            "value": 105
+          },
+          {
+            "name": "US",
+            "value": 103.9
+          },
+          {
+            "name": "Azerbaijan",
+            "value": 46.4
+          }
+        ]
+      }
+    }
+  ],
+  "endSection": {
+    "methodology": "Methodology",
+    "methodologyText": "",
+    "readMore": "READ MORE",
+    "readMoreUrl": [
+      {
+        "id": 1,
+        "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/coe-prices-most-categories-fall-large-car-category-drops-86",
+        "text": "COE prices for most categories fall; large-car category drops by 8.6%"
+      },
+      {
+        "id": 2,
+        "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/coe-quota-increases-22-feb-apr-motorcycle-category-receives",
+        "text": "COE quota increases 2.2% for Feb-Apr; motorcycle category receives cut-and-fill for the first time"
+      },
+      {
+        "id": 3,
+        "url": "https://www.businesstimes.com.sg/singapore/singapores-median-household-income-28-real-terms-2023",
+        "text": "Singapore’s median household income up 2.8% in real terms in 2023"
+      },
+      {
+        "id": 4,
+        "url": "https://www.businesstimes.com.sg/singapore/singapores-s260000-toyotas-fuel-angst-over-widening-wealth-gap",
+        "text": "Singapore’s S$260,000 Toyotas fuel angst over widening wealth gap"
+      },{
+        "id": 5,
+        "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/singapores-ev-registrations-surge-505-5468-2023",
+        "text": "Singapore’s EV registrations surge 50.5% to 5,468 in 2023"
+      }
+    ],
+    "pdfLink": "https://static1.businesstimes.com.sg/bt_files/specials/2024/why-a-toyota-costs-200000-in-singapore/toyota_cost.pdf?v=1",
+    "pdfText": "View print graphic (1.2 MB)",
+    "source": [
+      {
+        "id": 1,
+        "text": "SOURCE: LTA, AUTHORISED DISTRIBUTORS"
+      },
+      {
+        "id": 2,
+        "text": "PRODUCED BY: DERRYN WONG"
+      },
+      {
+        "id": 3,
+        "text": "BTVISUAL: SIMON ANG, HANNAH KWAH, QUAH KAI YUAN"
+      },
+      {
+        "id": 4,
+        "text": "PRINT GRAPHIC: HYRIE RAHMAT"
+      }
+    ]
+  },
+  "footer": {
+    "desc": "SPH Digital News / Copyright © 2024 SPH Media Trust Ltd. Co. Regn No. 202120748H. All rights reserved."
+  }
+}

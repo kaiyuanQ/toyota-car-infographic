@@ -1,0 +1,155 @@
+// FONTS FAMILY
+$font-family-body: "Public Sans", sans-serif;
+$font-family-others: "Poppins", sans-serif;
+$font-family-others-2: "Libre Caslon Text", serif;
+
+// FONTS-WEIGHT
+$font-thin: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semiBold: 600;
+$font-bold: 700;
+$font-extraBold: 800;
+$font-black: 900;
+
+//Paddings
+$p-0: 0;
+$p-4: 0.25rem;
+$p-8: 0.5rem;
+$p-10: 0.675rem;
+$p-12: 0.75rem;
+$p-14: 0.875rem;
+$p-16: 1rem;
+$p-20: 1.25rem;
+$p-24: 1.5rem;
+$p-28: 1.75rem;
+$p-32: 2rem;
+$p-40: 2.5rem;
+$p-48: 3rem;
+$p-56: 3.5rem;
+$p-64: 4rem;
+$p-72: 4.5rem;
+$p-80: 5rem;
+$p-88: 5.5rem;
+$p-96: 6rem;
+$p-104: 6.5rem;
+$p-112: 7rem;
+$p-120: 7.5rem;
+$p-128: 8rem;
+$p-136: 8.5rem;
+$p-144: 9rem;
+$p-152: 9.5rem;
+
+@mixin publicSans {
+    font-family: $font-family-body;
+    font-style: normal;
+}
+
+// @mixin poppins {
+//     font-family: $font-family-others;
+//     font-style: normal;
+// }
+
+@mixin courier {
+    font-family: "Courier Prime", monospace;
+    font-style: normal;
+}
+
+@mixin fs-44 {
+    font-size: 3rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-40 {
+    font-size: 2.5rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-36 {
+    font-size: 2.25rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-32 {
+    font-size: 2rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-28 {
+    font-size: 1.75rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-24 {
+    font-size: 1.5rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-20 {
+    font-size: 1.25rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-16 {
+    font-size: 1rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-14 {
+    font-size: 0.875rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-12 {
+    font-size: 0.75rem;
+    line-height: 1.25em;
+}
+
+@mixin fs-10 {
+    font-size: 0.625rem;
+    line-height: 1.25em;
+}
+
+@mixin font-300 {
+    font-weight: 300;
+}
+
+@mixin font-400 {
+    font-weight: 400;
+}
+
+@mixin font-500 {
+    font-weight: 500;
+}
+
+@mixin font-600 {
+    font-weight: 600;
+}
+
+@mixin font-700 {
+    font-weight: 700;
+}
+
+@mixin font-800 {
+    font-weight: 800;
+}
+
+@mixin font-900 {
+    font-weight: 900;
+}
+
+// .poppins {
+//     @include poppins;
+// }
+
+.publicSans {
+    @include publicSans;
+}
+
+h1 {
+    @include publicSans;
+    @include font-500;
+    @include fs-32;
+    margin: 0;
+    padding: 0;
+}

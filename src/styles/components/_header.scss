@@ -1,0 +1,200 @@
+.header-container {
+    // position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    .header-bar {
+        background-color: black;
+        padding: 0 20px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include for-mobile {
+            padding: 5px 10px;
+        }
+        @include for-small-mobile {
+            padding: 5px 10px;
+        }
+    }
+    .logos-container {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        @include for-mobile {
+            gap: 15px;
+            margin-top: 6px;
+        }
+        
+        @include for-small-mobile {
+            gap: 15px;
+            margin-top: 6px;
+        }
+    }
+
+    .btlogo {
+        width: 245px;
+        height: 23px;
+        cursor: pointer;
+        background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/btLogo.png") !important;
+        background-size: contain;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        margin: 0;
+        padding: 0;
+
+
+        @include for-mobile {
+            width: 30px;
+            background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/btMobileLogo.png") !important;
+        }
+
+        @include for-small-mobile {
+            width: 30px;
+            background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/btMobileLogo.png") !important;
+        }
+    }
+
+    .budget-logo-container {
+        width: 113px;
+        img {
+            width: 100%;
+        }
+
+        @include for-mobile {
+            width: 60px;
+        }
+
+        @include for-small-mobile {
+            width: 60px;
+        }
+    }
+    .share-button-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .twitterlogo {
+        margin-left: 20px;
+    }
+
+    .inlogo {
+        margin-left: 20px;
+        // @media only screen and (max-width: $desktop) {
+        //     margin-left: 10px;
+        // }
+    }
+
+    .selected {
+        background-color: $black;
+        color: white;
+    }
+
+    .shareon > * {
+        background: none;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        @include for-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            padding: 0;
+        }
+
+        @include for-small-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            padding: 0;
+        }
+    }
+
+    .shareon > .twitter {
+        background: none;
+        margin: 0 20px;
+
+        @include for-mobile {
+            margin: 0 10px;
+        }
+
+        @include for-small-mobile {
+            margin: 0 10px;
+        }
+    }
+
+    .shareon > .twitter:before {
+        background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/twLogo.png") !important;
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        top: 0;
+        left: 0;
+        @include for-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+
+        @include for-small-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+    }
+
+    .shareon > .linkedin {
+        background: none;
+    }
+
+    .shareon > .linkedin:before {
+        background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/inLogo.png") !important;
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        top: 0;
+        left: 0;
+        @include for-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+
+
+       
+        @include for-small-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+    }
+
+    .shareon > .facebook {
+        background: none;
+    }
+
+    .shareon > .facebook:before {
+        background-image: url("https://www.businesstimes.com.sg/bt_files/interactives/assets/fbLogo.png") !important;
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        top: 0;
+        left: 0;
+        @include for-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+
+
+        @include for-small-mobile {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+        }
+    }
+}

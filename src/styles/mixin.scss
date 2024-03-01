@@ -1,0 +1,66 @@
+@mixin typography(
+    $font-family,
+    $font-size: 18px,
+    $font-weight: normal,
+    $font-style: normal,
+    $line-height: 18px,
+    $letter-spacing: normal
+) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+$breakpoints: (
+    "phone": 767px,
+    "tablet": 768px,
+    "desktop": 1025px,
+);
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+
+@mixin for-desktop {
+    @media (min-width: 966px) {
+        @content;
+    }
+}
+
+@mixin for-tablet {
+    @media (min-width: 696px) and (max-width: 965px) {
+        @content;
+    }
+}
+
+
+@mixin for-mobile {
+    @media (min-width: 375px) and (max-width: 695px) {
+        @content;
+    }
+}
+
+@mixin for-small-mobile {
+    @media  (max-width: 374px) {
+        @content;
+    }
+}
+
+
+@mixin for-all-mobile {
+    @media  (max-width: 695px) {
+        @content;
+    }
+}

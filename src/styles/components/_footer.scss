@@ -1,0 +1,23 @@
+.footer-container {
+    // position: fixed;
+    .footer-bar {
+        min-height: 40px;
+        max-height: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2b2b2b;
+        color: white;
+        @include fs-12;
+        text-align: center;
+
+        @include for-mobile {
+            padding: $p-10;
+        }
+
+        @include for-small-mobile {
+            padding: $p-10;
+        }
+    }
+}
